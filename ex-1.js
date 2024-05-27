@@ -13,4 +13,10 @@ let getJohnProfile = () => {
     );
   });
 };
+const arr = (data)=>{
+  console.log(data)
+}
 // Start coding here
+getJohnProfile()
+.then(arr)
+

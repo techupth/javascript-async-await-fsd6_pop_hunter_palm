@@ -13,3 +13,11 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+const conasyn = async ()=>{
+  try{const JohnProfile = await getJohnProfile()
+  console.log(JohnProfile)
+  }catch(e){
+    console.log(e)
+  }
+}
+conasyn()

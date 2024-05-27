@@ -31,5 +31,15 @@ let getJohnOrders = () => {
     );
   });
 };
-
+const arr = (data)=>{
+  console.log(data)
+}
+const arr2 = (data2)=>{
+  console.log(data2)
+}
 // Start coding here
+getJohnProfile()
+.then(arr)
+getJohnOrders()
+.then(arr2)
+

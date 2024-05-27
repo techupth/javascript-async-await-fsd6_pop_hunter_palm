@@ -11,5 +11,13 @@ let getJohnProfile = () => {
     );
   });
 };
-
+const suc = (data)=>{
+  console.log(data)
+}
+const fail = (e)=>{
+  console.log(e)
+}
 // Start coding here
+getJohnProfile()
+.then(suc)
+.catch(fail)
